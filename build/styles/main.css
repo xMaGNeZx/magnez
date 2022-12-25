@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #0f0f0f;
+    --secondary-color: #171717;
+    --red-color: #8b0000;
+    --hover-color: #560000;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* HEADER STYLING START */
+header {
+    background: var(--secondary-color);
+    margin-bottom: 4em;
+}
+
+.navbar-brand {
+    font-size: 2.1em;
+    font-weight: 800;
+    color: #fff;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+.nav-link {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--red-color);
+    cursor: pointer;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.navbar-toggler-icon:hover,
+.navbar-nav .nav-link.active:focus {
+    color: var(--hover-color);
+}
+
+.navbar .navbar-toggler,
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: var(--red-color);
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+/* HEADER STYLING END */
+/* MAIN STYLING START */
+
+main .first-section,
+.second-section,
+.third-section,
+.forth-section,
+.fifth-section {
+    padding: 2rem 2.7rem;
+    text-align: center;
+}
+
+span {
+    color: var(--red-color);
+}
+
+/* ---------------------- */
+
+main .first-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+main .first-section .logo {
+    max-height: 400px;
+    min-height: 200px;
+}
+
+main .first-section .heading {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    main .first-section .heading {
+        font-size: 2rem;
+    }
+}
+
+/* ---------------------- */
+
+main .second-section {
+    align-items: center;
+    padding: 0 20%;
+}
+
+main .second-section .about-pg {
+    font-size: 1.4em;
+    margin-top: 10vh;
+    margin-bottom: 3em;
+}
+
+/* ---------------------- */
+
+main .third-section {
+    background: var(--secondary-color);
+    margin-bottom: 3em;
+}
+
+main .third-section .title {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10vh;
+}
+
+main .third-section .skills-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 10%;
+}
+
+main .third-section .skill .icon {
+    color: var(--red-color);
+    margin-bottom: 10%;
+}
+
+/* ---------------------- */
+
+main .fifth-section {
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+main .fifth-section button {
+    all: unset;
+    margin-top: 2em;
+}
+
+main .fifth-section button a:any-link {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: var(--red-color);
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+main .fifth-section button a:hover {
+    color: var(--red-color);
+    background-color: transparent;
+    border: 1px solid var(--red-color);
+}
+
+/* MAIN STYLING END */
+
+/* FOOTER STYLING START */
+
+footer {
+    background: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 10%;
+}
+
+@media screen and (max-width: 768px) {
+    footer .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+footer .social-icons .sm-icon {
+    margin: 0 10px;
+    color: var(--red-color);
+    cursor: pointer;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+footer .social-icons .sm-icon:hover {
+    color: var(--hover-color);
+}
+
+/* FOOTER STYLING END */
