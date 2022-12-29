@@ -152,6 +152,20 @@ main .third-section .skill .icon {
 }
 
 /* ---------------------- */
+main .forth-section {
+    margin-bottom: 3em;
+}
+
+main .forth-section .project-1 img {
+    float: right;
+    transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+/* ---------------------- */
 
 main .fifth-section {
     align-items: center;
