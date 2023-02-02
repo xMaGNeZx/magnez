@@ -23,7 +23,7 @@ body {
     color: #fff;
 }
 
-/* HEADER STYLING START */
+/* ============ HEADER ============ */
 header {
     background: var(--secondary-color);
     margin-bottom: 4em;
@@ -69,8 +69,7 @@ header {
     -o-transition: 300ms;
 }
 
-/* HEADER STYLING END */
-/* MAIN STYLING START */
+/* ============ MAIN ============ */
 
 main .first-section,
 .second-section,
@@ -85,7 +84,7 @@ span {
     color: var(--red-color);
 }
 
-/* ---------------------- */
+/* ======================== */
 
 main .first-section {
     display: flex;
@@ -111,7 +110,7 @@ main .first-section .heading {
     }
 }
 
-/* ---------------------- */
+/* ======================== */
 
 main .second-section {
     align-items: center;
@@ -124,7 +123,7 @@ main .second-section .about-pg {
     margin-bottom: 3em;
 }
 
-/* ---------------------- */
+/* ======================== */
 
 main .third-section {
     background: var(--secondary-color);
@@ -151,7 +150,7 @@ main .third-section .skill .icon {
     margin-bottom: 10%;
 }
 
-/* ---------------------- */
+/* ======================== */
 main .forth-section {
     margin-bottom: 3em;
 }
@@ -165,7 +164,7 @@ main .forth-section .project-1 img {
     -o-transform: skew(20deg);
 }
 
-/* ---------------------- */
+/* ======================== */
 
 main .fifth-section {
     align-items: center;
@@ -196,9 +195,7 @@ main .fifth-section button a:hover {
     border: 1px solid var(--red-color);
 }
 
-/* MAIN STYLING END */
-
-/* FOOTER STYLING START */
+/* ============ FOOTER ============ */
 
 footer {
     background: var(--secondary-color);
@@ -228,5 +225,3 @@ footer .social-icons .sm-icon {
 footer .social-icons .sm-icon:hover {
     color: var(--hover-color);
 }
-
-/* FOOTER STYLING END */
