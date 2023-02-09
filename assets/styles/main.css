@@ -145,6 +145,14 @@ main .third-section .skills-icons {
     padding: 0 10%;
 }
 
+/* main .third-section .skills-icons::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--red-color);
+    display: none;
+} */
+
 main .third-section .skill .icon {
     color: var(--red-color);
     margin-bottom: 10%;
