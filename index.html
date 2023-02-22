@@ -9,7 +9,7 @@
         content="Hello, my name is ༄MaGNeZ࿐, and I'm a talented junior Front-End website developer with 2 years of self-teaching and building skills. I can swiftly make a responsive websites using native coding with the help of Frameworks.">
     <title>༄MaGNeZ࿐ | Web Developer</title>
 
-    <!--============ LINKS ============-->
+    <!--==================== LINKS ====================-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -20,12 +20,12 @@
 
 <body>
 
-    <!--========= HEADER =========-->
+    <!--==================== HEADER ====================-->
 
     <header>
-        <nav class="navbar d-flex navbar-expand-lg" id="top">
+        <nav class="navbar d-flex navbar-expand-lg mb-5" id="top">
             <div class="container">
-                <a class="navbar-brand" href="index.html">༄MaGNeZ࿐</a>
+                <a class="brand fs-2 fw-bold text-white" href="index.html">༄MaGNeZ࿐</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +34,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
+                            <a href="#about" class="nav-link fs-5 fw-bolder">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#skills" class="nav-link">Skills</a>
+                            <a href="#skills" class="nav-link fs-5 fw-bolder">Skills</a>
                         </li>
                         <li class=" nav-item">
-                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#portfolio" class="nav-link fs-5 fw-bolder">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact</a>
+                            <a href="#contact" class="nav-link fs-5 fw-bolder">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -51,97 +51,181 @@
         </nav>
     </header>
 
-    <!--========= MAIN =========-->
+    <!--==================== MAIN ====================-->
 
     <main>
-        <!--========================-->
-        <div class="first-section align-items-center" id="landing">
-            <img class="logo img-fluid m-md-auto m-sm-auto m-xs-auto" src="assets/images/logo.webp" alt="logo">
-            <p class="heading m-auto md-fs-3 sm-fs-5">I am a <span>Front-End</span>
-                <br>
-                Web
-                <span>Dev</span>eloper
-            </p>
-        </div>
-        <!--========================-->
-        <div class="second-section" id="about">
-            <p class="title fs-1 fw-semibold">ABOUT <span>ME</span></p>
-            <p class="about-pg">
-                Hello, my name is <span>༄MaGNeZ࿐</span>, and I'm a <span>talented</span> junior Front-End
-                <span>web</span>site
-                developer with 2 years of
-                self-teaching and building skills. I can swiftly make a <span>responsive</span> websites
-                using native
-                <span>coding</span> with the help of <span>Frameworks</span>.
-            </p>
-        </div>
-        <!--========================-->
-        <div class="third-section" id="skills">
-            <p class="title fs-1 fw-semibold"><span>MY</span> SKILLS</p>
-            <div class="skills-icons flex-lg-nowrap">
-                <div class="skill">
-                    <i class="icon fa-solid fa-laptop-code fa-4x"></i>
-                    <h3>Web Development</h3>
-                    <p>I can create a <span>smooth</span> and <span>responsive</span> web page using only
-                        <span>basic</span> HTML5, CSS3, and JavaScript.
-                    </p>
-                </div>
-                <div class="skill">
-                    <i class="icon fa-solid fa-user fa-4x"></i>
-                    <h3>UI & UX Design</h3>
-                    <p>To ensure the customer's <span>satisfaction</span>, my objective is to deliver a smooth
-                        <span>user experience</span> and a nice <span>interface</span>.
-                    </p>
-                </div>
-                <div class="skill">
-                    <i class="icon fa-solid fa-code fa-4x"></i>
-                    <h3>Frameworks</h3>
-                    <p>I am glad to use <span>Bootstrap</span> and <span>SCSS</span> to ensure that I provide your
-                        project as <span>quickly</span> as possible.</p>
+        <section class="first-section mb-5" id="landing">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
+                        <img class="logo img-fluid" src="assets/images/logo.webp" alt="logo">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 m-auto text-center">
+                        <p class="heading fs-1 fw-bold text-lg-start text-md-center text-sm-center">Junior Front-end
+                            <span>Dev</span>eloper | HTML, CSS, and
+                            Bootstrap <span>Expert</span>.
+                        </p>
+                    </div>
                 </div>
             </div>
-
-        </div>
+        </section>
         <!--========================-->
-        <!-- <div class="forth-section" id="projects">
-            <p class="title fs-1 fw-semibold"><span>MY</span> PROJECTS</p>
-        </div>
-        <div class="project-1 p-5">
-            <p class="title fs-3 fw-semibold"">Johnathan Specter landing page</p>
-            <p class=" description fs-5">This is a challenge that was made by
-                codewell.com to practice responsiveness in building websites</p>
-            <img class="image w-50" src="assets/images/portfolio/Johnathan-specter.png" alt="Johnathan-specter">
-
-        </div> -->
-
+        <section class="second-section mb-5" id="about">
+            <div class="container">
+                <div class="row align-items-center text-center m-auto">
+                    <p class="title fs-2 fw-bolder">ABOUT <span>ME</span></p>
+                    <p class="about fs-5">Hello there, I'm a <span>junior</span> front-end web <span>dev</span>eloper
+                        with
+                        experience in HTML, CSS, and Bootstrap. I am passionate about
+                        creating <span>responsive</span> and <span>user-friendly</span> websites that meet clients'
+                        needs.</p>
+                    <p class="about fs-5">With a strong <span>understanding</span> of front-end development
+                        technologies, I
+                        can create clean, semantic, and valid HTML <span>code</span>, and style it using CSS to create
+                        <span>beautiful</span> and functional websites. I am also <span>experienced</span> in using
+                        Bootstrap to create <span>responsive</span> and mobile-first web designs.
+                    </p>
+                    <p class="about fs-5">In addition to my technical <span>skills</span>, I have a strong attention to
+                        <span>detail</span>, good <span>communication</span> skills, and a passion for
+                        staying <span>up-to-date</span> with the latest web development trends and <span>best
+                            practices</span>. I am committed to delivering <span>quality</span> work
+                        on time and within budget.
+                    </p>
+                    <p class="about fs-5">If you're <span>looking</span> for a junior <span>front-end</span> web
+                        developer to
+                        create a <span>professional</span> and <span>responsive</span> website that meets your business
+                        needs, feel free to <span>contact me</span>. I am eager to work with you and take your online
+                        presence to the <span>next level</span>.</p>
+                </div>
+            </div>
+        </section>
         <!--========================-->
-        <div class="fifth-section" id="contact">
-            <p class="title fs-1 fw-semibold"><span>CONTACT </span>ME</p>
-            <p class="heading fs-3 fw-semibold text-align-center">
-                You like what you <span>see?</span>, <br> I will be <span>glad</span> to <span>work</span> with you.
-            </p>
-            <button><a href="mailto:magnez419@gmail.com" target="_blank">Drop an Email</a></button>
-        </div>
+        <section class="third-section mb-5 pb-4 pt-4" id="skills">
+            <div class="container">
+                <div class="row align-items-center text-center">
+                    <p class="title fs-2 fw-bolder mb-4 "><span>MY</span> SKILLS</p>
+                    <div class="col-lg-4 col-md-6 col-sm-12 m-auto mb-2">
+                        <div class="skills">
+                            <i class="icon fa-solid fa-laptop-code fa-4x"></i>
+                            <h3>Web Development</h3>
+                            <p>I can create a <span>smooth</span> and <span>responsive</span> web page using only
+                                <span>basic</span> HTML5, CSS3, and JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 m-auto mb-2">
+                        <div class="skills">
+                            <i class="icon fa-solid fa-user fa-4x"></i>
+                            <h3>User Friendly</h3>
+                            <p>To ensure the customer's <span>satisfaction</span>, my objective is to deliver a smooth
+                                <span>user experience</span> and a nice <span>interface</span>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 m-auto mb-2">
+                        <div class="skills">
+                            <i class="icon fa-solid fa-code fa-4x"></i>
+                            <h3>Frameworks</h3>
+                            <p>I am glad to use <span>Bootstrap</span> and <span>SCSS</span> to ensure that I provide
+                                your
+                                project as <span>quickly</span> as possible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================-->
+        <section class="forth-section mb-5" id="portfolio">
+            <div class="container">
+                <div class="row align-items-center mb-4">
+                    <p class="title fs-2 fw-bolder text-center mb-4">MY <span>PORTFOLIO</span></p>
+                    <div class="col-md-6 text-center">
+                        <h2 class="title fw-bold text-white">Johnathan Specter portfolio</h2>
+                        <p class="text-white-50">Award-winning web developer and author, with over 15+ years of
+                            working
+                            experience with fortune 500 companies like Apple, Google, Facebook, and more.</p>
+                        <div class="gap-2">
+                            <a class="btn mb-3" href="https://magnez-johnathan-specter.netlify.app" target="_blank">See
+                                full project →</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-last">
+                        <div class="project-image-container">
+                            <img src="assets/images/portfolio/johnathan-specter-portfolio.png"
+                                class="project-image img-fluid" alt="Project Image">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center">
+                        <h2 class="title fw-bold text-white">Chirp landing page</h2>
+                        <p class="text-white-50">Chirp is a suite of Twitter analytics that will help you
+                            better understand your audience, which tweets they like, and most importantly, when they are
+                            the
+                            most active on Twitter.</p>
+                        <div class="gap-2">
+                            <a class="btn mb-3" href="https://magnez-chirp.netlify.app" target="_blank">See
+                                full project →</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 order-lg-first order-md-first order-sm-last">
+                        <div class="project-image-container">
+                            <img src="assets/images/portfolio/chirp-landing-page.png" class="project-image img-fluid"
+                                alt="Project Image">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--========================-->
+        <section class="fifth-section mb-5" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h2 class="title fw-bolder"><span>Contact</span> Me
+                        </h2>
+                        <p class="heading fs-4">You like what you
+                            <span>see?</span>, <br> I will <span>gladly
+                                work</span>
+                            with
+                            you.
+                        </p>
+                        <div class="mx-auto gap-2">
+                            <a class="btn" href="mailto:magnez419@gmail.com" target="_blank">Drop me
+                                an email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!--========= FOOTER =========-->
-
+    <!--==================== FOOTER ====================-->
     <footer>
-        <a class=" navbar-brand" href="index.html">༄MaGNeZ࿐</a>
-        <div class="social-icons d-flex align-items-center jusify-content-between">
-            <a href="https://github.com/xMaGNeZx" target="_blank"><i class=" sm-icon fa-brands fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/xmagnezx/" target="_blank"><i
-                    class="sm-icon fa-brands fa-linkedin fa-2x"></i></a>
-            <a href="https://www.instagram.com/mag_nez_/" target="_blank"><i
-                    class="sm-icon fa-brands fa-instagram fa-2x"></i></a>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <a class="brand fs-2 fw-bold text-white" href="index.html">༄MaGNeZ࿐</a>
+                </div>
+                <div class="social-icons col-6 text-end">
+                    <a href=" https://github.com/xMaGNeZx" target="_blank"><i
+                            class="sm-icon fa-brands fa-github fa-2x me-3"></i></a>
+                    <a href="https://www.linkedin.com/in/xmagnezx/" target="_blank"><i
+                            class="sm-icon fa-brands fa-linkedin fa-2x me-3"></i></a>
+                    <a href="https://www.instagram.com/mag_nez_/" target="_blank"><i
+                            class="sm-icon fa-brands fa-instagram fa-2x me-3"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
-    <!--============ SCRIPTS ============-->
+    <!--==================== SCRIPTS ====================-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="assets/scripts/all.min.js"></script>
-    <script src="assets/scripts/main.js"></script>
 </body>
 
 </html>
